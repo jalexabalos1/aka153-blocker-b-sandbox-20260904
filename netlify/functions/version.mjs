@@ -3,7 +3,7 @@ export default async (request) => {
     return new Response("Method not allowed", { status: 405 });
   }
 
-  return new Response("AKA153_FUNCTION_A", {
+  return new Response("AKA153_FUNCTION_B", {
     status: 200,
     headers: { "content-type": "text/plain; charset=utf-8" },
   });
